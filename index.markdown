@@ -3,6 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: Start here
+nav_order: 1
+
 ---
 This site shows a few examples of the kind of technical writing I've done - whether it be help center articles, for projects, or documenting APIs. 
 
