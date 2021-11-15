@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jack Fitzsimons | Technical Writing Samples
+title: Jack Fitzsimons | Documentation
 email: fitzsimonsjl@tutanota.com
 description: >- # this means to ignore newlines until "baseurl:"
   Here you'll find samples of documentation ranging from Help Center articles,
@@ -30,16 +30,12 @@ github_username:  fitzsimonsjl
 
 # Build settings
 # Commented out original theme
-# theme: minima
-
-# Adding remote theme
-
-remote_theme: pmarsceill/just-the-docs
+theme: "just-the-docs"
 color_scheme: "dark"
 search_enabled: false
 
 plugins:
-  - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
