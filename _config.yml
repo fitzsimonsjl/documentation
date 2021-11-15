@@ -29,7 +29,15 @@ twitter_username: fitzsimonsjl
 github_username:  fitzsimonsjl
 
 # Build settings
-theme: minima
+# Commented out original theme
+# theme: minima
+
+# Adding remote theme
+
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
+search_enabled: false
+
 plugins:
   - jekyll-feed
 
