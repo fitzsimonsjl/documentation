@@ -2,13 +2,20 @@
 layout: default
 title: Consents FAQ
 parent: Help Center
-nav-order: 6
+nav_order: 4
 permalink: /consents-faq/
 --- 
 
-# Consents FAQ
-
 _This FAQ will go through the most often asked questions regarding all things consent._
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 ## How long is the consent that visitors give valid for?
 
@@ -37,13 +44,13 @@ Yes. If you have changed the length of consent validity, it is a good idea to pu
 
 It's also useful and advised if you have added third party services to your website that you know also set cookies (that your previous visitors will not have consented to yet).
 
-If you would like to push for consent, please have a look at our article on how to do so: How to push for consent.
+If you would like to push for consent, please have a look at our article on how to do so: [How to push for consent]().
 
 ## How does it work when a visitor decides to update their consent?
 
 If a visitor decides to update their consent via the Re-open consent pop-up icon (pictured below), then the adjustments they make will be recorded as a new consent.
 
-[Picture]
+![re-open consent icon](../assets/consents-faq/reopen-icon.png)
 
 However, this does not mean that the cookies they have declined are suddenly removed. Cookie Information (or you as a website owner) do not have the ability to add or remove cookies from a users browser at will.
 

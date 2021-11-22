@@ -2,13 +2,19 @@
 layout: default
 title: Data Controllers/Processors FAQ
 parent: Help Center
-nav-order: 7
+nav_order: 3
 permalink: /data-controllers-data-processors-faq/
 ---
-
-# Data Controllers and Data Processors FAQ
-
 _This article will explain the differences between the Data Processors and Controllers - and what exactly it means for you._
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 ## Why do we need Data Processors or Data Controllers?
 
@@ -34,7 +40,7 @@ A sub-processor is any other business or contractor that the personal data of us
 
 As mentioned above, they are both necessary to become and/or remain compliant with the GDPR. As a Data Controller, you are responsible for:
 
-Collecting, managing, and access to data:
+**Collecting, managing, and access to data**:
 
 If a user requests their data, then you must be able to meet this request either by finding it on your server or getting in touch with the processor that is handling the data on your behalf.
 
@@ -42,11 +48,11 @@ Only Data Controllers are allowed to collect personally identifiable information
 
 As part of this, there must also be a clear and easily accessible privacy policy that details what data is collected from which cookies, why this data is being processed, who is processing it (meaning who it is also shared with), and finally how long the data is stored by both first and third parties.
 
-Keeping records of consents:
+**Keeping records of consents**:
 
 Under the GDPR, Data Controllers must keep records of consent to process any user information - meaning that if you are the Data Controller, then you are responsible when the Data Protection Authorities ask to see consents collected.
 
-Appointing a Data Protection Officer:
+**Appointing a Data Protection Officer**:
 
 Regardless of whether it is a Data Processor or a Data Controller - both must appoint a Data Protection Officer when working with personal data.
 
@@ -60,10 +66,10 @@ If a website visitor asks to see the consent they gave, please ask them to have 
 
 To find your user_uid property, please take a look at our article What if a user requests their consent data?.
 
-## If I'm acting as the Data Processor, does that mean because I use your services that I have to sign a Data Processing Agreement with Cookie Information?
+## If I'm acting as the Data Processor, does that mean because I use your services that I have to sign a DPA?
 
 No, it is not necessary to sign a Data Processing Agreement with us because we do not collect or store any personal information to run and provide our services.
 
 If you would like to see what data we do collect (as well as how it's stored and formatted), please see the article Do we need to sign a data processing agreement with Cookie Information?
 
-Didn't find the answer you needed? Write to us at support@cookieinformation.com
+Didn't find the answer you needed? Write to us at [support@cookieinformation.com]()

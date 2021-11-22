@@ -2,11 +2,22 @@
 layout: default
 title: Google Consent Mode Implementation
 parent: Help Center
-nav-order: 5
+nav_order: 1
 permalink: /google-consent-mode-implementation/
---- 
+---
 
-# What do I need to do to set up Google Consent Mode?
+_This article will walk you through implementing Google Consent Mode with Cookie Information_
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+## What do I need to do to set up Google Consent Mode?
 
 Getting Google Consent Mode set up correctly consists of two halves:
 
@@ -92,11 +103,11 @@ Give the tag a name (like "Cookie Information Consent Mode" and click on the Tag
 
 Scroll down and select the Cookie Information Consent Mode tag template.
 
-![Template-1](/assets/consent-mode-implementation/tag-template-1.png)
+![Template1](../assets/consent-mode-implementation/tag-template-1.png)
 
 Under Default Consent Settings, click "Add Row"
 
-![Template-2](/assets/consent-mode-implementation/tag-template-2.png)
+![Template2](../assets/consent-mode-implementation/tag-template-2.png)
  
 Next, click on the Triggering pane and select "Consent Initialization - All Pages" as the trigger type.
 
@@ -107,8 +118,6 @@ Alternatively, you can copy the initial config of Consent Mode script above and 
 ## How do I know if Consent Mode is working correctly?
   
 Suppose you've followed along with our article on setting up Google Consent Mode. In that case, you'll be able to test whether it's correctly implemented by watching the video below or following the steps outlined:
-  
-https://media.githubusercontent.com/media/fitzsimonsjl/fitzsimonsjl/github.io/documentation/master/consent-mode-implementation/gcm-check.mp4
   
 1. Open a new incognito window in your browser of choice.
 
