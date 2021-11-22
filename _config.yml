@@ -32,7 +32,7 @@ github_username:  fitzsimonsjl
 # Commented out original theme
 remote_theme: pmarsceill/just-the-docs
 theme: "just-the-docs"
-color_scheme: "dark"
+color_scheme: "light"
 search_enabled: false
 
 plugins:
