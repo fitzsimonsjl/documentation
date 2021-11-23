@@ -12,11 +12,7 @@ _Step-by-step implementation guide for the mobile app consent_
 
 The mobile app consent is different from cookie consents on websites. Your users can consent to different purposes or statements. These are called consent items. 
 
-The consent items could be:
-- That you are 18 or older 
-- You agree to terms and conditions
-- You agree to receive newsletters
-- Any other type of agreement you need with a user of your application.
+The consent items could be that you are 18 or older; you agree to terms and conditions; you agree to receive newsletters, or any other type of agreement you need with a user of your application.
 
 <details open markdown="block">
   <summary>
@@ -86,7 +82,7 @@ implementation("com.cookieinformation:mobileconsents:<latest_release>")
 
 For instructions on how to initialize the SDK, sending consent to a server, as well as retrieving locally saved consent data, please see:
 
-https://bitbucket.org/cookieinformation/mobileconsents-android/src/master/Readme.md
+[Android Mobile Consents Repository](#)
 
 ### iOS
 
@@ -102,7 +98,7 @@ Once that's done, run the command `pod install`
 
 For instructions on how to initialize the SDK, retrieve a consent solution, sending consent to a server, and retrieving locally saved consents data, please see:
 
-https://bitbucket.org/cookieinformation/mobileconsents-ios/src/master/
+[iOS Mobile Consents Repository](#)
 
 ## Consent Request 
 
@@ -126,7 +122,6 @@ However, there are a few general requirements:
 
 - Your server must allow secure authentication
 - Your server must be http and able to talk to an endpoint
-
 - Your server must support oauth
 
 ## Placing and formatting consent items
