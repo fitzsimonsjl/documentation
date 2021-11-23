@@ -119,7 +119,7 @@ Alternatively, you can copy the initial config of Consent Mode script above and 
   
 Suppose you've followed along with our article on setting up Google Consent Mode. In that case, you'll be able to test whether it's correctly implemented by watching the video below or following the steps outlined:
   
-![consent-mode-video](https://user-images.githubusercontent.com/36840901/142919067-cfd184ae-0080-49b1-9d5e-3c072fbb7fbc.mov)
+https://user-images.githubusercontent.com/36840901/142919067-cfd184ae-0080-49b1-9d5e-3c072fbb7fbc.mov
 
 
 1. Open a new incognito window in your browser of choice.
