@@ -28,12 +28,27 @@ url: "https://fitzsimonsjl.github.io" # the base hostname & protocol for your si
 twitter_username: fitzsimonsjl
 github_username:  fitzsimonsjl
 
+# Aux links for the upper right navigation
+aux_links:
+  "View project respository on GitHub":
+    - "//github.com/fitzsimonsjl/documentation"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true 
+
+# Back to top link at bottom of each article
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Settings for search
+button: false
+
 # Build settings
 # Commented out original theme
 remote_theme: pmarsceill/just-the-docs
 theme: "just-the-docs"
-color_scheme: "light"
-search_enabled: false
+color_scheme: custom
+search_enabled: true
 
 plugins:
 

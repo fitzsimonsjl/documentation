@@ -10,7 +10,7 @@ _This article will walk you through what you need to get in order to request a r
 
 In order to request a record of your consent from us for a particular website, you will need to find your user_uid property. This is a random ID assigned to your consent that can be used to find it later on should you wish to view it.
 
-This uid_property is not tied to any personal information, and we do not store any personal information about you when running our services. If you would like to see examples of what information we do collect, please see our article Do I need to sign a data-processing agreement with Cookie Information?
+This uid_property is not tied to any personal information, and we do not store any personal information about you when running our services. If you would like to see examples of what information we do collect, please see our article [Do I need to sign a data-processing agreement with Cookie Information?]()
 
 Finding your user_uid property is fairly simple (we will use Cookie Information as an example):
 

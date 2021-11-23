@@ -19,7 +19,9 @@ _This FAQ will go through the most often asked questions regarding all things co
 
 ## How long is the consent that visitors give valid for?
 
-How long users consent is valid for depends on what choices they make in regards to their consent to cookies. If a visitor accepts all cookies, then their consent will be valid for 12 months. If a visitor declines one or more cookie categories, then their consent will be valid for 2 weeks (14 days). 
+How long users consent is valid for depends on what choices they make in regards to their consent to cookies. If a visitor accepts all cookies, then their consent will be valid for 12 months. 
+
+If a visitor declines one or more cookie categories, then their consent will be valid for 2 weeks (14 days). 
 
 In both cases, at the end of these time periods, they will be prompted with the Consent Pop-up again.
 
@@ -62,7 +64,7 @@ If you are looking at the consent rate data for past consents and find that the 
 
 We regularly archive consent data to ensure that the user experience of our platform is not negatively impacted. If we were to show all consent rate data in the compliance dashboard the loading time would be unreasonably long.
 
-If you have the Basic Dashboard as part of your subscription, this data is limited to the last 7 days.
+If you have the Basic Dashboard as part of your subscription, this data is limited to the past 7 days.
 
 ## How can I tell how many visitors accepted a certain category?
 
@@ -84,4 +86,4 @@ It is not possible to see how many visitors did not take any action on the pop-u
 
 It is not possible to see what part or parts of the pop-up a visitor spent the most time looking at before they made their consent choice.
 
-Still unsure or didn't find the answer you were looking for? Contact us at support@cookieinformation.com
+Still unsure or didn't find the answer you were looking for? Contact us at [support@cookieinformation.com]()

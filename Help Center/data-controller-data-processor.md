@@ -70,6 +70,6 @@ To find your user_uid property, please take a look at our article What if a user
 
 No, it is not necessary to sign a Data Processing Agreement with us because we do not collect or store any personal information to run and provide our services.
 
-If you would like to see what data we do collect (as well as how it's stored and formatted), please see the article Do we need to sign a data processing agreement with Cookie Information?
+If you would like to see what data we do collect (as well as how it's stored and formatted), please see the article [Do we need to sign a data processing agreement with Cookie Information?]()
 
 Didn't find the answer you needed? Write to us at [support@cookieinformation.com]()

@@ -12,7 +12,11 @@ _Step-by-step implementation guide for the mobile app consent_
 
 The mobile app consent is different from cookie consents on websites. Your users can consent to different purposes or statements. These are called consent items. 
 
-The consent items could be; You are 18 or above, you agree to terms and conditions, you agree to receive newsletters and any other type of agreement you need with your app user.
+The consent items could be:
+- That you are 18 or older 
+- You agree to terms and conditions
+- You agree to receive newsletters
+- Any other type of agreement you need with a user of your application.
 
 <details open markdown="block">
   <summary>

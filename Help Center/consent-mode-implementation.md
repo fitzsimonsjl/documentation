@@ -21,7 +21,11 @@ _This article will walk you through implementing Google Consent Mode with Cookie
 
 Getting Google Consent Mode set up correctly consists of two halves:
 
-Placing the snippet for the initial configuration of Google Consent Mode in the source code of your site. This needs to be placed in the <head> above the uc.js script and gtag or Google Tag Manager script:
+- Placing the snippet for the initial configuration of Google Consent Mode in the source code of your site. 
+- Removing the Cookie Information SDK triggers from any Google tags within your Google Tag Manager container.
+
+
+Fist, add the intial config of Consent Mode script to the source code of your site. This needs to be placed in the <head> above the uc.js script and gtag or Google Tag Manager script):
   
 ```js
 <!-- The initial config of Consent Mode -->
@@ -39,9 +43,11 @@ gtag('set', 'ads_data_redaction', true);
 </script>
 ```
 
-Suppose you have already implemented the cookie control SDK. In that case, you will need to remove references to cookie_cat_statistic references on the triggers that fire your Google Analytics and Ads tags.
+If you have already implemented the cookie control SDK, you will need to remove references to cookie_cat_statistic references on the triggers that fire your Google Analytics and Ads tags.
 
-If you would like to customise the Consent Mode script further with other possible options or simply learn more about what the different attributes do, please see Google's documentation for Consent Mode.
+If you have not already implemented the SDK, then you can skip this step and read on below to see what other attributes can be added as part of Consent Mode.
+
+If you would like to customise the Consent Mode script further with other possible options or simply learn more about what the different attributes do, please see [Google's documentation for Consent Mode]()
 
 This means that the complete setup of Google Consent Mode should look similar to the below (with all scripts in the correct order):
 
@@ -117,8 +123,8 @@ Alternatively, you can copy the initial config of Consent Mode script above and 
 
 ## How do I know if Consent Mode is working correctly?
   
-Suppose you've followed along with our article on setting up Google Consent Mode. In that case, you'll be able to test whether it's correctly implemented by watching the video below or following the steps outlined:
-  
+Once you've completed each step in this article, you'll be able to test whether it's correctly implemented by watching the video below or following the steps outlined:
+
 https://user-images.githubusercontent.com/36840901/142919067-cfd184ae-0080-49b1-9d5e-3c072fbb7fbc.mov
 
 
@@ -144,14 +150,14 @@ Unfortunately, this isn't something we can control or help with all that much.
 
 As Google Consent Mode uses an API that Cookie Information uses to pass the consent state (the users choice to cookies). How specific tags are behaving when receiving this data is not something we are knowledgeable of currently.
 
-Of course, we're always happy to make sure that Google Consent Mode is correct - and if you would like us to do so, please write to support@cookieinformation.com.
+Of course, we're always happy to make sure that Google Consent Mode is correct - and if you would like us to do so, please write to [support@cookieinformation.com.]
 
 Unfortunately, there isn't anything Cookie Information can specifically do to improve the data that gets logged in Google Analytics. The Cookie Information and Consent Mode script only make use of setting and updating the consent state and making Google Tag Manager aware.
 
 What about conversion modelling through Consent Mode for Google Ads?
 Conversion Modelling is a way for Google to fill in the gaps (so to speak) when a user has not consented to cookies that are needed for things like Google Ads and Google Analytics to function and show you data.
 
-You can learn more about it in Google's blog post on conversion modelling through Consent Mode in Google Ads.
+You can learn more about it in Google's [blog post on conversion modelling through Consent Mode in Google Ads]().
 
 ## Where will I see this modelled data?
   
